@@ -1,157 +1,669 @@
-<!DOCTYPE HTML>
-<!--
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>John Y Kim</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="shortcut icon" type="image/x-icon" href="images/portfolio_icon.png" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+<html lang="en">
 
-		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-				<!-- Intro -->
-					<div id="intro">
-						<img class="circular--square" src="images/profilePic.png" width="270" height="400"/>
+  <title>John Yewon Kim</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
 
-						<h1>John Y Kim</h1>
-						<p>Hello! I'm an iOS Developer with various experiences in software development. I'm always looking to improve and expand my skillset, and especially love to learn through creative projects! <br>
-							</p>
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-						<div class="something" id="header">
-								<ul class="actions special">
-									<li>
-										<a href="#header" class="logo scrolly">iOS Projects</a>
-									</li>
-									<li>
-										<a href="#web-projects" class="logo scrolly">Skills & About me</a>
-									</li>
-								</ul>
-						</div>
-					</div>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
-				<!-- Nav -->
-					<nav id="nav">
-						<ul class="links">
-						</ul>
-						<ul class="icons">
-							<li><a href="https://www.linkedin.com/in/johnyewonkim/" class="icon brands fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
-							<li><a href="https://github.com/yewonjohn" class="icon brands fa-github" target="_blank"><span class="label">GitHub</span></a></li>
-							<li><a href="images/John's Resume (6).pdf" class="icon far fa-file" target="_blank"><span class="label">Resume</span></a></li>
-						</ul>
-					</nav>
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/webfonts/fa-brands-400.eot" rel="stylesheet">
+  <link href="assets/webfonts/fa-brands-400.svg" rel="stylesheet">
+  <link href="assets/webfonts/fa-brands-400.ttf" rel="stylesheet">
+  <link href="assets/webfonts/fa-brands-400.woff" rel="stylesheet">
+  <link href="assets/webfonts/fa-brands-400.woff2" rel="stylesheet">
 
-				<!-- Main -->
-					<div id="main">
-						<div class="posty">
-							<h3>iOS Projects</h3>
-						</div>
-						
-						<!-- Featured Post -->
-							<article class="post featured">
-								<header class="major">
-									<h2><a href="https://apps.apple.com/us/app/id1529764788" target="_blank">piq</a></h2>
-									<p>piq is an app that aims to make finding local restaurants easy and fun. It provides simple search criterias, and you can quickly find local food joints by swiping through cards. Built with MVC architecture.
-										<br />
-										<strong>Open to feedback/suggestions! Always looking for ways to improve the app.</strong> 
-									</p>
-								</header>
-								<!-- <a href="https://apps.apple.com/us/app/id1529764788" class="image main" target="_blank"><img src="/images/todoApp_Screenshot.PNG" alt="" /></a> -->
-								<video controls autoplay loop muted	autoplay="autoplay" loop="loop" width="300" height="600">
-										<source src="images/piqVideo.MP4" type="video/mp4" />
-										<!-- <img src="/images/todoApp_Screenshot.PNG" width=100% /> -->
-									</video>
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
 
-								<ul class="actions special">
-										<li><a href="https://apps.apple.com/us/app/id1529764788" class="button" target="_blank">App Store</a></li>
-										<li><a href="https://github.com/yewonjohn/piqProject" class="button seeCode" target="_blank">See Code</a></li>
-								</ul>
-							</article>
+  <!-- =======================================================
+  * Template Name: iPortfolio - v1.4.1
+  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
 
-						<!-- Posts -->
-							<section class="posts">
-									<article>
-											<header>
-												<h2><a href="https://github.com/yewonjohn/NYDimes" target="_blank">NYDimes</a></h2>
-											</header>
-											<video controls autoplay loop muted	autoplay="autoplay" loop="loop" width="300" height="600">
-												<source src="images/NYDimesVideo.MP4" type="video/mp4" />
-												<!-- <img src="/images/todoApp_Screenshot.PNG" width=100% /> -->
-											</video>
-											<div>NYDimes fetches popular articles utilizing NYTimes API so you can easily read and save your favorite articles! Built with MVVM architecture.<br></div>
+<body>
 
-											<ul class="actions special">
-												<!-- <li><a href="#" class="button">App Store</a></li> -->
-												<li><a href="https://apps.apple.com/us/app/nydimes/id1536794301" class="button" target="_blank">App Store</a></li>
-											<li><a href="https://github.com/yewonjohn/NYDimes" class="button seeCode" target="_blank">See Code</a></li>
-											</ul>
-										</article>
-								<article>
-									<header>
-										<h2><a href="https://github.com/yewonjohn/Next-flix" target="_blank">Next-flix</a></h2>
-									</header>
-									<a href="https://github.com/yewonjohn/Next-flix" target="_blank"> <img src="images/Next-flix_Screenshot.PNG" alt="" alt=""width="285" height="600"/></a>
-									<div>(Unfinished) Next-flix utilizes a netflix data API to show upcoming and leaving movies and shows on Netflix. Simple, and useful.</div>
-									<ul class="actions special">
-										<!-- <li><a href="#" class="button">App Store</a></li> -->
-										<li><a href="https://github.com/yewonjohn/Next-flix" class="button seeCode" target="_blank">See Code</a></li>
-									</ul>
-								</article>
-							</section>
+  <!-- ======= Mobile nav toggle button ======= -->
+  <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
 
-							<article id="web-projects" class="posty">
-								<header>
-										<h2>Previous Projects/Training</h2>
-								</header>
-							</article>
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="d-flex flex-column">
 
-							<section class="posts">
-								<article>
-									<header>
-										<h2><a href="/colorgameproject/" target="_blank">Servicenow Enterprise</a></h2>
-									</header>
-									<a href="/colorgameproject/" class="image fit" target="_blank"><img src="/images/Color_Game_Project_Screenshot.png" alt="" /></a>
-									<p>Previously and currently working with Servicenow as a platform to develop and consult Fortune 500 clients to help build reliable and efficient enterprise. Servicenow mainly uses javascript to create server-side and client-side scripts to fulfill enviornment requirements. Have gone through multiple development lifecycles through Agile, which also involved dev, test, pre-prod, and prod enviornments.</p>
-									<!-- <ul class="actions special">
-										<li><a href="https://github.com/bfongbfong/ColorGame" class="button seeCode" target="_blank">See Code</a></li>
-									</ul> -->
-								</article>
-								<article>
-									<header>
-										<h2><a href="/ToDoListProject/" target="_blank">Full-Stack Training (2018)</a></h2>
-									</header>
-									<a href="/ToDoListProject/" class="image fit" target="_blank"><img src="images/ToDoList Project Screenshot.png" alt="" /></a>
-									<p>Trained for 3 months on Full-Stack Development starting with Python, and developing apps through Java. Developed robust back-end databses using SQL and created the application through Angular.
-									</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/bfongbfong/ToDoList" class="button seeCode" target="_blank">See Code</a></li>
-									</ul>
-								</article>
-					</div>
+      <div class="profile">
+        <img src="assets/img/smallerProfile.JPG" alt="" class="img-fluid rounded-circle">
+        <h1 class="text-light"><a href="index.html">John Y Kim</a></h1>
+        <div class="social-links mt-3 text-center">
+          <!-- <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+          <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+          <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a> -->
+          <a href="https://www.linkedin.com/in/johnyewonkim/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+          <a href="https://github.com/yewonjohn" class="icon brands fa-github" target="_blank"><span class="label">Git</span></a>
+          <a href="assets/img/John's Resume (7).pdf" class="resume"><i class="bx bx-file-blank"></i></a>
 
-				<!-- Copyright -->
-					<div id="copyright">
-						<ul><li>&copy; 2020</li><li>John Kim</li></ul>
-					</div>
 
-			</div>
+        </div>
+      </div>
+      <nav class="nav-menu">
+        <ul>
+          <li class="active"><a href="index.html"><i class="bx bx-home"></i> <span>Home</span></a></li>
+          <li><a href="#about"><i class="bx bx-user"></i> <span>About</span></a></li>
+          <li><a href="#resume"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+          <li><a href="#portfolio"><i class="bx bx-book-content"></i> Portfolio</a></li>
+          <!-- <li><a href="#services"><i class="bx bx-server"></i> Services</a></li>
+          <li><a href="#contact"><i class="bx bx-envelope"></i> Contact</a></li> -->
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+        </ul>
+      </nav><!-- .nav-menu -->
+      <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
 
-	</body>
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+    <div class="hero-container" data-aos="fade-in">
+      <h1>John Yewon Kim</h1>
+      <p>I'm <span class="typed" data-typed-items="an Engineer, a Developer, a Hard-worker, a Creator"></span></p>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>About</h2>
+          <p>Hello! I'm an iOS Developer with various experiences in software development. I'm always looking to improve and expand my skillset, and especially love to learn through creative projects!</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4" data-aos="fade-right">
+            <img src="assets/img/YewonprofilePicture.png" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <h3>iOS Engineer</h3>
+            <p class="font-italic">
+              <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+              magna aliqua. -->
+            </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="icofont-rounded-right"></i> <strong>Birthday:</strong> 31 July 1995</li>
+                  <li><i class="icofont-rounded-right"></i> <strong>LinkedIn:</strong> https://www.linkedin.com/in/johnyewonkim/</li>
+                  <li><i class="icofont-rounded-right"></i> <strong>Phone:</strong> 347-598-0607</li>
+                  <li><i class="icofont-rounded-right"></i> <strong>City:</strong> New Jersey, USA</li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="icofont-rounded-right"></i> <strong>Age:</strong> 25</li>
+                  <li><i class="icofont-rounded-right"></i> <strong>Degree:</strong> Bachelor</li>
+                  <li><i class="icofont-rounded-right"></i> <strong>Email:</strong> yewonjohnkim@gmail.com</li>
+                </ul>
+              </div>
+            </div>
+            <p>
+              My hobbies include anything sports, casual gaming, guitar & drums, and eating lots of brownies. I love sunny weather and rain makes me sad.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Facts Section ======= -->
+    <!-- <section id="facts" class="facts">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Facts</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        </div>
+
+        <div class="row no-gutters">
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
+            <div class="count-box">
+              <i class="icofont-simple-smile"></i>
+              <span data-toggle="counter-up">232</span>
+              <p><strong>Happy Clients</strong> consequuntur quae</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="count-box">
+              <i class="icofont-document-folder"></i>
+              <span data-toggle="counter-up">521</span>
+              <p><strong>Projects</strong> adipisci atque cum quia aut</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="count-box">
+              <i class="icofont-live-support"></i>
+              <span data-toggle="counter-up">1,463</span>
+              <p><strong>Hours Of Support</strong> aut commodi quaerat</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="300">
+            <div class="count-box">
+              <i class="icofont-users-alt-5"></i>
+              <span data-toggle="counter-up">15</span>
+              <p><strong>Hard Workers</strong> rerum asperiores dolor</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>End Facts Section -->
+
+    <!-- ======= Skills Section ======= -->
+    <section id="skills" class="skills section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Skills</h2>
+          <p>Here are a list of my skills I've accumulated over the years through formal education and work as well as personal endeavors and learning experiences! The skill percentages are calculated relative to each other. </p>
+        </div>
+
+        <div class="row skills-content">
+
+          <div class="col-lg-6" data-aos="fade-up">
+
+            <div class="progress">
+              <span class="skill">Swift <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Java <i class="val">70%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">HTML/CSS <i class="val">35%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="progress">
+              <span class="skill">JavaScript<i class="val">40%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">NodeJS <i class="val">30%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Github <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Skills Section -->
+
+    <!-- ======= Resume Section ======= -->
+    <section id="resume" class="resume">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Resume</h2>
+          <p>Here is a summary of my current & relevant professional experiences engagements</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6" data-aos="fade-up">
+            <!-- <h3 class="resume-title">Sumary</h3>
+            <div class="resume-item pb-0">
+              <h4>John Y Kim</h4>
+              <p><em>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.</em></p>
+              <ul>
+                <li>Portland par 127,Orlando, FL</li>
+                <li>(123) 456-7891</li>
+                <li>alice.barkley@example.com</li>
+              </ul>
+            </div> -->
+
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>Bachelor of Arts in Information Technology and Informatics</h4>
+              <h5>2014 - 2018</h5>
+              <p><em>New Brunswick, New Jersey</em></p>
+              <p>Built the foundation of my programming knowledge. Learned a whole range of skills including Java, CS concepts, UI/UX theories, group/teamwork.</p>
+            </div>
+            <div class="resume-item">
+              <h4>The Complete iOS Development Bootcamp</h4>
+              <h5>2019 - 2020</h5>
+              <p><em>Udemy</em></p>
+              <p>Learned majority of core concepts in iOS Development & Swift. Concepts include delegation, authentication, RESTful APIs, database (both network and local), and clean code practices.</p>
+            </div>
+          </div>
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Professional Experience</h3>
+            <div class="resume-item">
+              <h4>iOS Engineer Intern</h4>
+              <h5>September 2020 – Present</h5>
+              <p><em>Gesture, New York, NY </em></p>
+              <ul>
+                <li>Responsible for developing new design and data flow for the user shopping experience for the Gesture
+                  App.</li>
+                <li>Collaborated with UI/UX team to produce a refined/updated progression of the shopping experi-
+                  ence using the app. </li>
+                <li>Ensured clean code throughout the project for readability and scalability.</li>
+                <li>Worked on both front-end design and back-end using MVVM architecture.</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Senior Associate Software Developer</h4>
+              <h5>August 2018 - Present</h5>
+              <p><em>Infosys, New Jersey</em></p>
+              <ul>
+                <li>Trained in Full Stack Development using Python, Java, Angular, REST, Spring Hibernate, GitHub, MySQL</li>
+                <li>Developed front and back-end scripting skills and understand developing enterprise-level software platform
+                  through ServiceNow</li>
+                <li>Operated through Agile in developing and consulting for Fortune 500 clients through ServiceNow</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Resume Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Portfolio</h2>
+          <p>I like to build cool apps whenever I have the time to not only practice and further my developmental skills but because I find it fun! Click to see the code!</p>
+        </div>
+
+        <div class="row" data-aos="fade-up">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">iOS</li>
+              <!-- <li data-filter=".filter-app">App</li>
+              <li data-filter=".filter-card">Card</li>
+              <li data-filter=".filter-web">Web</li> -->
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <h2 style="text-align:center;">piq</h2>
+              <img src="assets/img/piqImage.jpeg" class="img-fluid" alt="">             
+              <div class="portfolio-links">
+                <a href="assets/img/piqVideo.MP4" title="piq"><h6>demo</h6></a>
+                <a href="https://apps.apple.com/us/app/id1529764788" title="piq"><h6>appStore</h6></a>
+                <a href="https://github.com/yewonjohn/piqProject" title="More Details"><h6>github</h6></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <h2 style="text-align:center;">NYDimes</h2>
+              <img src="assets/img/NYDimesImage.jpeg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/NYDimesVideo.MP4" data-gall="portfolioGallery"><h6>demo</h6></a>
+                <a href="https://apps.apple.com/us/app/nydimes/id1536794301" title="piq"><h6>appStore</h6></a>
+                <a href="https://github.com/yewonjohn/NYDimes" title="More Details"><h6>github</h6></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <h2 style="text-align:center;">Next-flix</h2>
+              <img src="assets/img/Next-flix_Screenshot.PNG" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="https://github.com/yewonjohn/Next-flix" title="More Details"><h6>github</h6></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-4.jpg" data-gall="portfolioGallery" class="venobox" title="Card 2"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-5.jpg" data-gall="portfolioGallery" class="venobox" title="Web 2"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-6.jpg" data-gall="portfolioGallery" class="venobox" title="App 3"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-7.jpg" data-gall="portfolioGallery" class="venobox" title="Card 1"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-8.jpg" data-gall="portfolioGallery" class="venobox" title="Card 3"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-9.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div> -->
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
+
+    <!-- ======= Services Section ======= -->
+    <!-- <section id="services" class="services">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Services</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
+            <div class="icon"><i class="icofont-computer"></i></div>
+            <h4 class="title"><a href="">Lorem Ipsum</a></h4>
+            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon"><i class="icofont-chart-bar-graph"></i></div>
+            <h4 class="title"><a href="">Dolor Sitema</a></h4>
+            <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon"><i class="icofont-earth"></i></div>
+            <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
+            <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
+            <div class="icon"><i class="icofont-image"></i></div>
+            <h4 class="title"><a href="">Magni Dolores</a></h4>
+            <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
+            <div class="icon"><i class="icofont-settings"></i></div>
+            <h4 class="title"><a href="">Nemo Enim</a></h4>
+            <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
+            <div class="icon"><i class="icofont-tasks-alt"></i></div>
+            <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
+            <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+          </div>
+        </div>
+
+      </div>
+    </section>End Services Section -->
+
+    <!-- ======= Testimonials Section ======= -->
+    <!-- <section id="testimonials" class="testimonials section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Testimonials</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        </div>
+
+        <div class="owl-carousel testimonials-carousel">
+
+          <div class="testimonial-item" data-aos="fade-up">
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+            <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+            <h3>Saul Goodman</h3>
+            <h4>Ceo &amp; Founder</h4>
+          </div>
+
+          <div class="testimonial-item" data-aos="fade-up" data-aos-delay="100">
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+            <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+            <h3>Sara Wilsson</h3>
+            <h4>Designer</h4>
+          </div>
+
+          <div class="testimonial-item" data-aos="fade-up" data-aos-delay="200">
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+            <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+            <h3>Jena Karlis</h3>
+            <h4>Store Owner</h4>
+          </div>
+
+          <div class="testimonial-item" data-aos="fade-up" data-aos-delay="300">
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+            <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+            <h3>Matt Brandon</h3>
+            <h4>Freelancer</h4>
+          </div>
+
+          <div class="testimonial-item" data-aos="fade-up" data-aos-delay="400">
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+            <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+            <h3>John Larson</h3>
+            <h4>Entrepreneur</h4>
+          </div>
+
+        </div>
+
+      </div>
+    </section>End Testimonials Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <!-- <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        </div>
+
+        <div class="row" data-aos="fade-in">
+
+          <div class="col-lg-5 d-flex align-items-stretch">
+            <div class="info">
+              <div class="address">
+                <i class="icofont-google-map"></i>
+                <h4>Location:</h4>
+                <p>A108 Adam Street, New York, NY 535022</p>
+              </div>
+
+              <div class="email">
+                <i class="icofont-envelope"></i>
+                <h4>Email:</h4>
+                <p>info@example.com</p>
+              </div>
+
+              <div class="phone">
+                <i class="icofont-phone"></i>
+                <h4>Call:</h4>
+                <p>+1 5589 55488 55s</p>
+              </div>
+
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
+            </div>
+
+          </div>
+
+          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="name">Your Name</label>
+                  <input type="text" name="name" class="form-control" id="name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                  <div class="validate"></div>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="name">Your Email</label>
+                  <input type="email" class="form-control" name="email" id="email" data-rule="email" data-msg="Please enter a valid email" />
+                  <div class="validate"></div>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="name">Subject</label>
+                <input type="text" class="form-control" name="subject" id="subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                <div class="validate"></div>
+              </div>
+              <div class="form-group">
+                <label for="name">Message</label>
+                <textarea class="form-control" name="message" rows="10" data-rule="required" data-msg="Please write something for us"></textarea>
+                <div class="validate"></div>
+              </div>
+              <div class="mb-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main>End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>iPortfolio</span></strong>
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/ -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer><!-- End  Footer -->
+
+  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
 </html>
